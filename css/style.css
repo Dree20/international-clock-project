@@ -1,6 +1,62 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: #9bbfe9;
+}
 h1 {
+  margin: 0;
+  line-height: 1.5;
   text-align: center;
+  font-size: 45px;
+  color: #3c6ca4;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #3c6ca4;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  color: #3c6ca4;
+}
+a {
+  font-weight: 300;
+}
+.container {
+  max-width: 600px;
+  background-color: white;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px rgba(163, 163, 163, 0.2);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.date {
+  opacity: 0.5;
+}
+.time {
+  font-size: 40px;
+  font-weight: bold;
+  color: #3c6ca4;
+}
+.time small {
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 48px;
 }
 footer {
+  margin: 0;
   text-align: center;
+  color: rgba(0, 0, 0, 0.6);
 }
