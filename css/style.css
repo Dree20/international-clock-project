@@ -42,6 +42,9 @@ a {
   padding: 10px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
+.city:last-child {
+  border: none;
+}
 .date {
   opacity: 0.5;
 }
@@ -55,6 +58,7 @@ a {
   vertical-align: middle;
   line-height: 48px;
 }
+
 footer {
   margin: 0;
   text-align: center;
